@@ -1,0 +1,78 @@
+<!-- Create a navigation bar similar to question 1. For each navigation item use a different border style/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .navbar{
+            position: fixed;
+            background-color: #2cbce0;
+            padding: 0px;
+            top: 0px;
+            width: 100%;
+            margin: 0px;
+        }
+        .nav-list{
+            list-style-type: none;
+            vertical-align: middle;
+            padding: 20px 20px;
+        }
+        .list-item{
+            display: inline-block;
+            margin: 0px 15px;
+            padding: 5px;
+        }
+        .first{
+            border: 3px dashed black;
+        }
+        .second{
+            border: 3px dotted black;
+        }
+        .third{
+            border: 3px double black;
+        }
+        .fourth{
+            border: 3px groove black;
+        }
+        .fifth{
+            border: 3px solid black;
+        }
+        .link-list{
+            color: white;
+        }
+        .link-list:hover{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul class="nav-list">
+                <li class="list-item first">
+                    <a href="#" class="link-list">Home</a>
+                </li>
+                <li class="list-item second">
+                    <a href="#" class="link-list">About us</a>
+                </li>
+                <li class="list-item third">
+                    <a href="#" class="link-list">Contact</a>
+                </li>
+                <li class="list-item fourth">
+                    <a href="#" class="link-list">Blog</a>
+                </li>
+                <li class="list-item fifth">
+                    <a href="#" class="link-list">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

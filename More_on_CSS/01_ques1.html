@@ -1,0 +1,63 @@
+<!-- Create a navigation bar similar to the below-mentioned image. The navigation bar must contain 5 navigation links that are properly placed within the navigation bar using the CSS box model. The navigation items must change their text color on hover -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .navbar{
+            position: fixed;
+            background-color: #2cbce0;
+            padding: 0px;
+            top: 0px;
+            width: 100%;
+            margin: 0px;
+        }
+        .nav-list{
+            list-style-type: none;
+            vertical-align: middle;
+            padding: 20px 20px;
+        }
+        .list-item{
+            display: inline-block;
+            margin: 0px 15px;
+            padding: 0px;
+        }
+        .link-list{
+            color: white;
+        }
+        .link-list:hover{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul class="nav-list">
+                <li class="list-item">
+                    <a href="#" class="link-list">Home</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="link-list">About us</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="link-list">Contact</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="link-list">Blog</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="link-list">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
